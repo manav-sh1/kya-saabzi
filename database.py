@@ -6,7 +6,7 @@ password = quote_plus('Sparsematrix@1')
 host = "db.ildfjmclpeylbedzufgt.supabase.co"
 db = 'postgres'
 
-DB_URL = 'postgresql://postgres:Sparsematrix%401@db.ildfjmclpeylbedzufgt.supabase.co:5432/postgres'
+DB_URL = 'postgresql://postgres.ildfjmclpeylbedzufgt:Sparsematrix%401@aws-0-ap-south-1.pooler.supabase.com:5432/postgres'
 
 engine = create_engine(DB_URL, echo = True)
 
