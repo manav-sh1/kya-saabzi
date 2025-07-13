@@ -17,7 +17,7 @@ def recommend_sabzi(sabzi_list: List[Dict[str, str]]) -> Tuple[str, int]:
     """
     today = datetime.today().date()
     candidates = []
-    threshold = 4
+    threshold = 7
 
     for sabzi in sabzi_list:
         last_cooked = sabzi.date_cooked or datetime(2000, 1, 1).date()
