@@ -23,7 +23,7 @@ A simple FastAPI-based backend application to track cooked sabzis (vegetables) a
 | GET    | `/sabzis`      | Fetch all cooked sabzis            |
 | POST   | `/cook`        | Add or update a sabzi              |
 | GET    | `/recommend`   | Recommend what to cook next        |
-| DELETE | `/sabzis/{name}` | Delete a sabzi by its name         |
+| DELETE | `/sabzis/{id}` | Delete a sabzi by its id           |
 
 ## 📄 Example Request
 
